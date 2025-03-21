@@ -23,5 +23,11 @@ int main(int argc, char** argv) {
   OBCameraNodeFactory node_factory(nh, nh_private);
   ROS_INFO_STREAM("Creating camera node done...");
   ros::spin();
+
+
+  ROS_INFO_STREAM("Creating camera node66666...");
+  ROS_INFO_STREAM("Creating camera node77777...");
+
+
   return 0;
 }
